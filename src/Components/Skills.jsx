@@ -48,13 +48,13 @@ const Skills = () => {
         }
     ]
     return (
-        <div className='md:w-3/4 mx-auto'>
+        <div className='md:w-3/4 mx-auto mb-60'>
             <h1 className="text-5xl text-center mb-10">Skills</h1>
 
             <div className="grid md:grid-cols-5 grid-cols-3 gap-y-10 justify-items-center">
                 {
                     iconsItems.map((item, index) =>
-                        <div className="group relative mx-auto my-14 flex h-10 w-max cursor-pointer justify-center">
+                        <div key={index} className="group relative mx-auto my-14 flex h-10 w-max cursor-pointer justify-center">
                             <div key={index}>{item.icon}</div>
                             {/* Hover Text */}
                             <div className="absolute -top-12 cursor-pointer whitespace-nowrap opacity-0 duration-500 hover:hidden group-hover:-top-16 group-hover:opacity-100  ">
