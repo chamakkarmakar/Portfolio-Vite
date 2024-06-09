@@ -49,7 +49,7 @@ const Skills = () => {
     ]
     return (
         <div className='md:w-3/4 mx-auto mb-60'>
-            <h1 className="text-5xl text-center mb-10">Skills</h1>
+            <h1 className="text-5xl text-center mb-10">My Skills</h1>
 
             <div className="grid md:grid-cols-5 grid-cols-3 gap-y-10 justify-items-center">
                 {

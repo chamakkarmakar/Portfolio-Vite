@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className='w-[95%] my-60 flex md:flex-row justify-around flex-col mx-auto'>
             <div className='md:w-1/4 md:mx-20 w-3/4 mx-auto'>
-                <img src={`${chamak9490}`} alt="chamak" className='' />
+                <img src={`${chamak9490}`} alt="chamak" className='rounded-b-full' />
             </div>
             <div className='md:w-1/2 w-full'>
                 <h1 className='uppercase md:text-justify font-semibold text-cyan-500 text-center text-xl mb-10 md:mt-0 mt-20'>About Me</h1>
