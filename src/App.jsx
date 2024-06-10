@@ -16,15 +16,13 @@ function App() {
   return (
     <div className=''>
 
-      <div className='h-screen bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=740&t=st=1717821397~exp=1717821997~hmac=ccde5b1a6f87a646e14f7dd4f563d12ca77485ddd4c5a81eb10a993cc2097c80")` }}>
-        <NavBar />
+      <div className='h-[700px] bg-cover bg-center bg-no-repeat mt-[-100px]' style={{ backgroundImage: `url("https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=740&t=st=1717821397~exp=1717821997~hmac=ccde5b1a6f87a646e14f7dd4f563d12ca77485ddd4c5a81eb10a993cc2097c80")` }}>
         <Hero />
       </div>
       <About />
       <Skills />
       <Projects />
       <Contact />
-      <Footer />
     </div>
   )
 }
