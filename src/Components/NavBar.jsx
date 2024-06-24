@@ -46,8 +46,8 @@ const NavBar = () => {
         <div className="sticky top-0 z-[10]">
             <nav className={`${scroll ? 'bg-sky-800' : 'md:bg-transparent bg-sky-800'} py-3 px-4`}>
                 <div className="w-[95%] mx-auto flex items-center justify-between">
-                    <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 md:w-auto w-80 transition-all duration-200 ease-in-out hover:scale-125">
-                        <h2 className='md:text-xl text-md font-semibold'>Chamak Karmakar</h2>
+                    <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 md:w-auto w-full transition-all duration-200 ease-in-out hover:md:scale-125 hover:scale-110">
+                        <h2 className='md:text-xl text-sm font-semibold'>Chamak Karmakar</h2>
                     </div>
                     <div className="md:w-[40%] w-full md:mx-10 mx-0 ">
                         <ul className={`w-full flex md:flex-row flex-col md:justify-around justify-center md:space-y-0 space-y-3 items-center md:shadow-none md:z-auto z-[-1] shadow-xl md:bg-transparent bg-sky-800 md:py-0 py-2 md:static duration-300 delay-150 transition-all ease-linear absolute left-0 right-0 

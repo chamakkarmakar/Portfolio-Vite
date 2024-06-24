@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="flex w-full max-w-6xl gap-10 md:flex-row flex-col md:items-center md:justify-between justify-start mt-36">
                 <div className="w-md md:space-y-6 space-y-4 md:mt-0 mt-10">
                     <h1 className="uppercase md:text-5xl text-3xl font-bold leading-tight">Hay!</h1>
-                    <h1 className='md:text-4xl text-3xl font-bold text-cyan-600 flex items-start'>
+                    <h1 className='md:text-4xl text-2xl font-bold text-cyan-600 flex items-start'>
                         <TypeAnimation
                             sequence={[
 

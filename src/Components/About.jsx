@@ -2,6 +2,7 @@ import React from 'react'
 import chamak9490 from "../assets/chamak9490.jpg"
 import { FiDownload } from "react-icons/fi";
 import { Link } from 'react-router-dom';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {
     return (
@@ -10,8 +11,14 @@ const About = () => {
                 <img src={`${chamak9490}`} alt="chamak" className='rounded-b-full' />
             </div>
             <div className='md:w-1/2 w-full'>
-                <h1 className='uppercase md:text-justify font-semibold text-cyan-500 text-center text-xl mb-10 md:mt-0 mt-20'>About Me</h1>
+                <ScrollAnimation animateIn="fadeInDown">
+                    <h1 className='uppercase md:text-justify font-semibold text-cyan-500 text-center text-xl mb-10 md:mt-0 mt-20'>About Me</h1>
+                </ScrollAnimation>
+
+                <ScrollAnimation animateIn="fadeInUp">
                 <h1 className='uppercase md:text-5xl text-3xl mb-10 md:text-left text-center font-bold'>I'm Available for Frontend Design Projects</h1>
+                </ScrollAnimation>
+            
                 <p className='px-10'>I am a hardworking and self-disciplined team player, looking for an
                     opportunity to grow myself and develop my skill as well. As a computer
                     science graduate, I am a tech enthusiast and have a good command of
@@ -19,7 +26,7 @@ const About = () => {
                     analyzing requirements or problem and bring a solution!</p>
 
                 <div className='flex md:justify-start justify-center'>
-                    <Link to="https://drive.google.com/file/d/1TevItSKgVJCBdhCZx-HfIDCJz0qM4Lhr/view" target='_blank'>
+                    <Link to="https://drive.google.com/file/d/1YiH1zOFCobNobWpDWS4w_QbrAIEfemvC/view" target='_blank'>
                         <button className="mt-10 text-xl box-border border-4 border-sky-900 w-48 h-14 rounded-lg bg-sky-600 text-white relative group">
                             <span className="pr-8">Resume</span>
                             <span className="bg-sky-900 absolute right-0 top-0  h-full flex items-center justify-center px-1 group-hover:duration-300 group-hover:w-full w-10 duration-300">

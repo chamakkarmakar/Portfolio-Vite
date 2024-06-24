@@ -4,6 +4,7 @@ import { GrReactjs } from "react-icons/gr";
 import { FaNode } from "react-icons/fa";
 import { SiExpress, SiMongodb, SiCss3, SiTailwindcss, SiBootstrap ,SiRedux } from "react-icons/si";
 import { TiHtml5 } from "react-icons/ti";
+import ScrollAnimation from 'react-animate-on-scroll';
 const Skills = () => {
     const iconsItems = [
         {
@@ -49,7 +50,9 @@ const Skills = () => {
     ]
     return (
         <div className='md:w-3/4 mx-auto mb-60'>
-            <h1 className="text-5xl text-center mb-10">My Skills</h1>
+            <ScrollAnimation animateIn="fadeInDown">
+            <h1 className="md:text-6xl font-bold text-4xl text-center mb-10">My Skills</h1>
+            </ScrollAnimation>
 
             <div className="grid md:grid-cols-5 grid-cols-3 gap-y-10 justify-items-center">
                 {
